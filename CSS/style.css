@@ -224,6 +224,9 @@ header {
 }
 
 /* main */
+main {
+    min-width: 1600px;
+}
     /* sitemap */
 .main-content__site-map {
     margin: 18px 11.3% 18px 11.8%;
