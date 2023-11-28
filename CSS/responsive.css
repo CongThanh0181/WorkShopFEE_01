@@ -104,6 +104,10 @@
         padding: 0px 27px 30px;
     }
 
+    .right-box .product-heading {
+        text-align: center;
+    }
+
     .color-box {
         margin: 0 auto 25px;
     }
@@ -259,5 +263,13 @@
     }
     .product-category {
         margin-bottom: 40px;
+    }
+
+    .footer-info .product-category td, .footer-info .contact td {
+        width: 200px;
+    }
+
+    .footer-info .contact .social {
+        justify-content: center;
     }
 }
