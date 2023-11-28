@@ -285,7 +285,7 @@ main {
     margin-bottom: 28px;
 }
 
-.main-product__atc-heart:hover, .main-product__atc-share:hover {
+.main-product__atc-heart svg:hover, .main-product__atc-share svg:hover {
     color: var(--mainColorBackground);
     cursor: pointer;
 }

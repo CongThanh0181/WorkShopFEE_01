@@ -1,0 +1,263 @@
+/* for ipad mini */
+@media screen and (max-width: 768px) {
+    main {
+        min-width: 0;
+        width: 100%;
+    }
+
+    .main-container {
+        margin: 0 10px;
+    }
+
+    .sub-content {
+        width: 100%;
+        margin: 0;
+    }
+
+    /* header */
+    header {
+        min-width: 0;
+    }
+
+    .main-content__header {
+        margin: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .logo {
+        margin-right: 100px;
+    }
+
+    .navbar {
+        justify-content: space-between;
+    }
+
+    .navbar .search {
+        margin-right: 0;
+    }
+
+    .navbar .search-input {
+        width: 220px;
+    }
+
+    .navbar .menu {
+        margin-right: 0;
+    }
+
+    .navbar .shopping,
+    .navbar .heart {
+        display: none;
+    }
+
+    .language-atc {
+        right: 10px;
+    }
+    
+
+    /* sitemap */
+    .main-content__site-map {
+        margin: 10px 0;
+    }
+
+
+    /* product */
+
+    .main-content__product {
+        display: block;
+        margin: 0;
+        box-shadow: none;
+    }
+
+    .main-content {
+        width: 100%;
+        
+    }
+
+    .left-box {
+        width: 100%;
+       padding-bottom: 30px;
+    }
+
+    .left-box__main-product {
+        width: 100%;
+        height: auto;
+        margin-bottom: 30px;
+        padding: 24px;
+    }
+
+    .left-box__main-product__image {
+        width: 100%;
+        height: auto;
+    }
+
+    .left-box__main-product__image img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .left-box__thumb-products .thumb-item {
+        width: 100%;
+    }
+
+    .right-box {
+        padding: 0px 27px 30px;
+    }
+
+    .color-box {
+        margin: 0 auto 25px;
+    }
+
+    .product-desc {
+        text-align: center;
+    }
+
+    .product-desc__atc {
+        margin: 0 auto 41px;
+    }
+
+    .right-box__atc {
+        margin: 0 auto 100px;
+    }
+
+    /* feature */
+    .main-content__features {
+        margin: 20px auto;
+        padding: 20px;
+        width: 90%;
+    }
+
+    
+    /* similar product */
+    .other-info,
+    .similar-info {
+        width: 90%;
+        overflow: hidden;
+        padding: 30px;
+        height: auto;
+        margin: 0 auto;
+        box-shadow: none;
+    }
+
+    .similar-product__list {
+        gap: 72px;
+    }
+
+    .similar-product__item {
+        width: 100%;
+    }
+
+    .similar-product__desc {
+        width: 200px;
+    }
+
+    /* other product */
+    .other-product__list {
+        gap: 72px;
+    }
+
+    .other-product__item{
+        width: 265px;
+        flex-shrink: 0;
+    }
+
+
+    /* foooter */
+    footer {
+        width: 100%;
+        min-width: 0;
+    }
+
+    .footer-info .product-category td,
+    .footer-info .contact td {
+        width: 160px;
+    }
+    
+}
+
+/* for iphone 14 pro max */
+@media screen and (max-width: 430px) {
+    /* header */
+    .logo {
+        margin-right: 90px;
+    }
+
+    .navbar {
+        gap: 10px;
+    }
+
+    .navbar .search {
+        display: none;
+    }
+
+    /* sitemap */
+    .site-map__item {
+        display: none;
+    }
+
+    /* product */
+    .left-box__main-product {
+        margin-bottom: 20px;
+    }
+
+    .left-box__thumb-products {
+        justify-content: center;
+        overflow: hidden;
+    }
+
+    .left-box__thumb-products .thumb-item {
+        padding: 10px;
+        margin: 15px;
+    }
+
+    .product-desc__atc {
+        width: 100%;
+        gap: 10px;
+    }
+
+    .product-desc__atc .month .mont-btn1::after,
+    .product-desc__atc .month .mont-btn2::after,
+    .product-desc__atc .month .mont-btn3::after,
+    .product-desc__atc .month .mont-btn4::after,
+    .product-desc__atc .month .mont-btn5::after,
+    .product-desc__atc .month .mont-btn1:hover,
+    .product-desc__atc .month .mont-btn2:hover,
+    .product-desc__atc .month .mont-btn3:hover,
+    .product-desc__atc .month .mont-btn4:hover,
+    .product-desc__atc .month .mont-btn5:hover {
+        width: auto;
+        
+    }
+
+    .product-desc__atc .add-cart {
+        padding: 0;
+    }
+
+    .right-box {
+        padding: 0 0 30px;
+    }
+
+    .right-box__atc {
+        width: 100%;
+        justify-content: space-between;
+        gap: 10px;
+        margin-bottom: 50px;
+    }
+
+    .right-box__atc-btn {
+        padding: 0;
+    }
+
+    /* feature */
+    .row span {
+        font-size: 1rem;
+    }
+
+    /* footer */
+    .footer-info {
+        display: block;
+    }
+    .product-category {
+        margin-bottom: 40px;
+    }
+}
